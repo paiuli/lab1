@@ -1,4 +1,4 @@
-import java.util.Locale;
+
 import java.util.Random;
 
 public class Main {
@@ -44,7 +44,7 @@ public class Main {
  public static void printMatrix(double[][] m) {
         for (double[] row : m) {
             for (double v : row) {
-                System.out.printf(Locale.US, "%10.4f", v);
+                System.out.printf("%10.4f", v);
             }
             System.out.println();
         }
